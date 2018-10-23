@@ -1,7 +1,7 @@
 {
   "main.css": "/tutorial-create-a-dao/static/css/main.1ac3b6bd.chunk.css",
-  "main.js": "/tutorial-create-a-dao/static/js/main.ec9c37e2.chunk.js",
-  "main.js.map": "/tutorial-create-a-dao/static/js/main.ec9c37e2.chunk.js.map",
+  "main.js": "/tutorial-create-a-dao/static/js/main.b1c8badb.chunk.js",
+  "main.js.map": "/tutorial-create-a-dao/static/js/main.b1c8badb.chunk.js.map",
   "static/js/1.72b3e345.chunk.js": "/tutorial-create-a-dao/static/js/1.72b3e345.chunk.js",
   "static/js/1.72b3e345.chunk.js.map": "/tutorial-create-a-dao/static/js/1.72b3e345.chunk.js.map",
   "runtime~main.js": "/tutorial-create-a-dao/static/js/runtime~main.55d1ad81.js",
@@ -17,6 +17,6 @@
   "static/media/Step1.md": "/tutorial-create-a-dao/static/media/Step1.9b59b3f4.md",
   "static/css/main.1ac3b6bd.chunk.css.map": "/tutorial-create-a-dao/static/css/main.1ac3b6bd.chunk.css.map",
   "index.html": "/tutorial-create-a-dao/index.html",
-  "precache-manifest.31d4626db74665768c1d30dc13463750.js": "/tutorial-create-a-dao/precache-manifest.31d4626db74665768c1d30dc13463750.js",
+  "precache-manifest.6108d4d969edb646b1a3aa1aa7e7cc68.js": "/tutorial-create-a-dao/precache-manifest.6108d4d969edb646b1a3aa1aa7e7cc68.js",
   "service-worker.js": "/tutorial-create-a-dao/service-worker.js"
 }
