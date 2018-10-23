@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "An app to teach you to write Solidity",
-  "homepage": "https://chenchenyo.github.io/DAOweb/",
+  "homepage": "https://validitylabs.github.io/tutorial-create-a-dao/",
   "dependencies": {
     "@reach/router": "^1.2.1",
     "babel-core": "^6.26.3",
