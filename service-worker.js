@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/DAOweb/precache-manifest.e2a14ae7d12c1e6796b2ced347f608da.js"
+  "/tutorial-create-a-dao/precache-manifest.31d4626db74665768c1d30dc13463750.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/DAOweb/index.html", {
+workbox.routing.registerNavigationRoute("/tutorial-create-a-dao/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
