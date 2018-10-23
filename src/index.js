@@ -24,7 +24,9 @@ class App extends React.Component {
         <header>
           <h1>
             <span>
-              <Link to={`/`}>Introduction to Smart Contract!</Link>
+              <Link to={`${process.env.PUBLIC_URL}/`}>
+                Introduction to Smart Contract!
+              </Link>
             </span>
           </h1>
         </header>
