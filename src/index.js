@@ -5,8 +5,9 @@ import ReactDOM from "react-dom";
 import * as serviceWorker from "./serviceWorker";
 
 import React from "react";
-import { render } from "react-dom";
+import { HashRouter } from 'react-router-dom';
 import { Router, Link } from "@reach/router";
+
 import "./reset.css";
 import "./single-col.css";
 import Step from "./Step";
@@ -15,7 +16,6 @@ import LandingPage from "./LandingPage";
 
 import { structure } from "./States";
 
-console.log(structure);
 
 class App extends React.Component {
   render() {
@@ -25,26 +25,16 @@ class App extends React.Component {
           <h1>
             <span>
               <Link to={`${process.env.PUBLIC_URL}/`}>
-                Introduction to Smart Contract!
+                Introduction to Smart Contract
               </Link>
             </span>
           </h1>
         </header>
 
-        <Router basename="/DAOweb">
+        <Router>
           <TOC path={`${process.env.PUBLIC_URL}/:directory`} />
           <LandingPage
             path={`${process.env.PUBLIC_URL}/`}
-            structure={structure}
-          />
-          <Step
-            path={`${process.env.PUBLIC_URL}/DAO/:id`}
-            directory="DAO"
-            structure={structure}
-          />
-          <Step
-            path={`${process.env.PUBLIC_URL}/prep/:id`}
-            directory="prep"
             structure={structure}
           />
           <Step
@@ -63,7 +53,12 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+// ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <HashRouter>
+      <App />
+  </HashRouter>
+  , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

@@ -6,7 +6,11 @@ class LandingPage extends React.Component {
     const { structure } = this.props;
     return (
       <div>
-        <section>Welcome to the landing page!</section>
+        <section>Dear #steps18 participants, welcome to the DAO workshop!
+        This website helps you to keep up with the workshop.
+        Please click on titles to go up/down levels.
+        </section>
+        
         <ul>
           {structure.map((item, index) => (
             <TOC

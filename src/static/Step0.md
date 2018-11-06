@@ -15,7 +15,3 @@ contract MyDAO {
 
 }
 ```
-
-> Material prepared for Blockchain for Science Conference 2018 Berlin (#BFSCON18), by [ValidityLabs AG](https://validitylabs.org/)
-
-> For any questions on content, please contact [Q](mailto:qianchen.yu@validitylabs.org)

@@ -2,6 +2,7 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import { navigate } from "@reach/router";
 import { Link } from "@reach/router";
+import Answer from "./Answer";
 
 const files = {
   s0: require("./static/Step0.md"),
@@ -22,6 +23,7 @@ class Step extends React.Component {
       title: null,
       content: null,
       path: null,
+      id:null,
       next: null,
       previous: null
     };
@@ -36,9 +38,24 @@ class Step extends React.Component {
       return item.directory === directory;
     });
 
+    fetch(require(`./static/footer.md`))
+    .then(response => {
+      return response.text();
+    })
+    .then(text => {
+      this.setState({
+        footer: text
+      });
+    })
+    .catch(err => {
+      console.log(err);
+      navigate("/");
+    });
+
     this.setState({
       title: section.title,
-      directory
+      directory,
+      id
     });
 
     // console.log("current id " + `${id}`);
@@ -46,9 +63,11 @@ class Step extends React.Component {
     // if (id < section.list.length - 1) {
     //   // it has next
     //   let next = +id + 1;
-    //   this.setState({ next });
+    //   this.setState({ next: `${process.env.PUBLIC_URL}/${this.state.directory}/${next}`});
     //   console.log(next);
-    // } else if (id > 0) {
+    //   console.log(this.state.next);
+    // }
+    //  if (id > 0) {
     //   // it has previous
     //   this.setState({ previous: +id - 1 });
     // }
@@ -100,8 +119,15 @@ class Step extends React.Component {
         <div className="content">
           <ReactMarkdown source={this.state.content} />
         </div>
+        <Answer
+          key={this.state.id}
+          id={this.state.id}
+        />
+        <div className="footer">
+          <ReactMarkdown source={this.state.footer} />
+        </div>
         {/* <div>
-          <Link to={`/${this.state.directory}/${this.state.previous}`}>
+          <Link to={`${process.env.PUBLIC_URL}/${this.state.directory}/${this.stateid}`}>
             Previous
           </Link>
         </div> */}
