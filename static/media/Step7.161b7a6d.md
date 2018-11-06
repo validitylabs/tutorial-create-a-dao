@@ -34,7 +34,3 @@ function getCurrentResultForProposal(uint256 _proposalNumber) public view return
     return proposalList[_proposalNumber].positiveVotes;
 }
 ```
-
-> Material prepared for Blockchain for Science Conference 2018 Berlin (#BFSCON18), by [ValidityLabs AG](https://validitylabs.org/)
-
-> For any questions on content, please contact [Q](mailto:qianchen.yu@validitylabs.org)

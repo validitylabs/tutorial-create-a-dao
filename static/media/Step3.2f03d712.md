@@ -19,6 +19,3 @@ function addMember(address _newMember) public returns (bool) {
 
 Also, we want the owner to become a member automatically. `memberList[owner] = true;`
 
-> Material prepared for Blockchain for Science Conference 2018 Berlin (#BFSCON18), by [ValidityLabs AG](https://validitylabs.org/)
-
-> For any questions on content, please contact [Q](mailto:qianchen.yu@validitylabs.org)
