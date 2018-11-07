@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/tutorial-create-a-dao/precache-manifest.882281d9bf7a28e8ffa44d06b46e3b2b.js"
+  "/tutorial-create-a-dao/precache-manifest.4f4341568ba5ea224f5672f8e83afe89.js"
 );
 
 workbox.clientsClaim();
