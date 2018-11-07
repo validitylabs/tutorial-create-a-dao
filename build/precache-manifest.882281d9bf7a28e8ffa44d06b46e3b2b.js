@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b66a7dea0ccc37fad31a",
+    "revision": "804ea45d45c0d9032c07",
     "url": "/tutorial-create-a-dao/static/css/main.31a26bae.chunk.css"
   },
   {
-    "revision": "b66a7dea0ccc37fad31a",
-    "url": "/tutorial-create-a-dao/static/js/main.b66a7dea.chunk.js"
+    "revision": "804ea45d45c0d9032c07",
+    "url": "/tutorial-create-a-dao/static/js/main.804ea45d.chunk.js"
   },
   {
     "revision": "38460aba92465a1a4570",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/tutorial-create-a-dao/static/media/Step3.2f03d712.md"
   },
   {
-    "revision": "9e0beda267aa2d0c806b3b551dc02704",
-    "url": "/tutorial-create-a-dao/static/media/Step4.9e0beda2.md"
+    "revision": "4d069db2994b7cc152092b8863031a92",
+    "url": "/tutorial-create-a-dao/static/media/Step4.4d069db2.md"
   },
   {
     "revision": "025671449b00d3e6f88dc7afdc63a398",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/tutorial-create-a-dao/static/media/Setup.43065af1.md"
   },
   {
-    "revision": "9cc0d53140fbda2b9142318d3d724687",
+    "revision": "3e3be8d4078c99b1d1db953be864443c",
     "url": "/tutorial-create-a-dao/index.html"
   }
 ];

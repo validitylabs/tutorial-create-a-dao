@@ -30,5 +30,10 @@ function addMember(address _newMember) public onlyOwner returns (bool) {
 }
 ```
 
+#### _Play around_:
+What happens if one forgets to add a "modifier"?
+
+Try this out [0x111721921f5f8E4EEEDAbAbDdc647200B2c2DbBe](https://ropsten.etherscan.io/address/0x111721921f5f8e4eeedababddc647200b2c2dbbe#writeContract)
+
 #### _Task_:
 Please write similar code so that __the owner can remove a member__.

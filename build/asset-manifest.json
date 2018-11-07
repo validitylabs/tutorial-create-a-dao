@@ -1,7 +1,7 @@
 {
   "main.css": "/tutorial-create-a-dao/static/css/main.31a26bae.chunk.css",
-  "main.js": "/tutorial-create-a-dao/static/js/main.b66a7dea.chunk.js",
-  "main.js.map": "/tutorial-create-a-dao/static/js/main.b66a7dea.chunk.js.map",
+  "main.js": "/tutorial-create-a-dao/static/js/main.804ea45d.chunk.js",
+  "main.js.map": "/tutorial-create-a-dao/static/js/main.804ea45d.chunk.js.map",
   "static/js/1.38460aba.chunk.js": "/tutorial-create-a-dao/static/js/1.38460aba.chunk.js",
   "static/js/1.38460aba.chunk.js.map": "/tutorial-create-a-dao/static/js/1.38460aba.chunk.js.map",
   "runtime~main.js": "/tutorial-create-a-dao/static/js/runtime~main.55d1ad81.js",
@@ -12,7 +12,7 @@
   "static/media/Step1.md": "/tutorial-create-a-dao/static/media/Step1.6a05441e.md",
   "static/media/Step2.md": "/tutorial-create-a-dao/static/media/Step2.b513052c.md",
   "static/media/Step3.md": "/tutorial-create-a-dao/static/media/Step3.2f03d712.md",
-  "static/media/Step4.md": "/tutorial-create-a-dao/static/media/Step4.9e0beda2.md",
+  "static/media/Step4.md": "/tutorial-create-a-dao/static/media/Step4.4d069db2.md",
   "static/media/Step5.md": "/tutorial-create-a-dao/static/media/Step5.02567144.md",
   "static/media/Step6.md": "/tutorial-create-a-dao/static/media/Step6.2f53a8bd.md",
   "static/media/Step7.md": "/tutorial-create-a-dao/static/media/Step7.161b7a6d.md",
@@ -20,6 +20,6 @@
   "static/media/Setup.md": "/tutorial-create-a-dao/static/media/Setup.43065af1.md",
   "static/css/main.31a26bae.chunk.css.map": "/tutorial-create-a-dao/static/css/main.31a26bae.chunk.css.map",
   "index.html": "/tutorial-create-a-dao/index.html",
-  "precache-manifest.d307841bb35dfc82f5cabcc533496962.js": "/tutorial-create-a-dao/precache-manifest.d307841bb35dfc82f5cabcc533496962.js",
+  "precache-manifest.882281d9bf7a28e8ffa44d06b46e3b2b.js": "/tutorial-create-a-dao/precache-manifest.882281d9bf7a28e8ffa44d06b46e3b2b.js",
   "service-worker.js": "/tutorial-create-a-dao/service-worker.js"
 }
